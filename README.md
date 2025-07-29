@@ -40,7 +40,7 @@
 git clone <repository-url>
 
 # 进入项目目录
-cd time-convert
+cd easy-time-convert
 
 # 运行程序
 go run main.go
@@ -50,7 +50,7 @@ go run main.go
 
 ```bash
 # 打包前确保已安装fyne cmd
-
+fyne package --icon .\easy-time-convert.png
 
 ```
 
